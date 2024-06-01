@@ -29,7 +29,7 @@ module.exports = {
   run: async (client, interaction) => {
     try {
 
-      const supportServerLink = "https://discord.gg/pDF8G5hB";
+      const supportServerLink = "https://discord.com/app";
       const githubLink = "https://github.com";
       const replitLink = "https://replit.com";
       const youtubeLink = "https://www.youtube.com";
@@ -38,7 +38,7 @@ module.exports = {
             .setAuthor({
               name: 'Support Server',
               iconURL: 'https://media.discordapp.net/attachments/1000753091815161932/1246578362185547878/slaWXEP.jpg?ex=665ce611&is=665b9491&hm=41ac7697608483c214eb166618cc24c37a3bc607a35bc519c2b0484c47383f5e&format=webp&', 
-              url: 'https://discord.gg/pDF8G5hB'
+              url: 'https://discord.com/app'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
             .setImage('https://media.discordapp.net/attachments/1000753091815161932/1246578362185547878/slaWXEP.jpg?ex=665ce611&is=665b9491&hm=41ac7697608483c214eb166618cc24c37a3bc607a35bc519c2b0484c47383f5e&format=webp&')
