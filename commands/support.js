@@ -37,11 +37,11 @@ module.exports = {
             .setColor('#b300ff')
             .setAuthor({
               name: 'Support Server',
-              iconURL: 'https://tenor.com/view/monkey-music-monkey-monkey-listening-to-the-music-monkey-chill-vibin-gif-24320967', 
+              iconURL: 'https://media.discordapp.net/attachments/1000753091815161932/1246578362185547878/slaWXEP.jpg?ex=665ce611&is=665b9491&hm=41ac7697608483c214eb166618cc24c37a3bc607a35bc519c2b0484c47383f5e&format=webp&', 
               url: 'https://discord.gg/pDF8G5hB'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://tenor.com/view/monkey-music-monkey-monkey-listening-to-the-music-monkey-chill-vibin-gif-24320967')
+            .setImage('https://media.discordapp.net/attachments/1000753091815161932/1246578362185547878/slaWXEP.jpg?ex=665ce611&is=665b9491&hm=41ac7697608483c214eb166618cc24c37a3bc607a35bc519c2b0484c47383f5e&format=webp&')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
