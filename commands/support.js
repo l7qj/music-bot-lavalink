@@ -41,7 +41,7 @@ module.exports = {
               url: 'https://discord.com/app'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://tenor.com/view/cool-fun-white-cat-dance-cool-and-fun-times-gif-16435335956387921912')
+            .setImage('https://tenor.com/view/kaneki-tokyo-tokyo-ghoul-ghoul-memories-gif-7646942302963930436 ')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
