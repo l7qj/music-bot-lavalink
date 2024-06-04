@@ -37,11 +37,11 @@ module.exports = {
             .setColor('#b300ff')
             .setAuthor({
               name: 'Support Server',
-              iconURL: 'https://media.discordapp.net/attachments/1000753091815161932/1246578362185547878/slaWXEP.jpg?ex=665ce611&is=665b9491&hm=41ac7697608483c214eb166618cc24c37a3bc607a35bc519c2b0484c47383f5e&format=webp&', 
+              iconURL: 'https://tenor.com/view/gjirlfriend-gif-13388513436635893625', 
               url: 'https://discord.com/app'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://media.discordapp.net/attachments/1000753091815161932/1246578362185547878/slaWXEP.jpg?ex=665ce611&is=665b9491&hm=41ac7697608483c214eb166618cc24c37a3bc607a35bc519c2b0484c47383f5e&format=webp&')
+            .setImage('https://tenor.com/view/cool-fun-white-cat-dance-cool-and-fun-times-gif-16435335956387921912')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
