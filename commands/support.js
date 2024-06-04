@@ -37,7 +37,7 @@ module.exports = {
             .setColor('#b300ff')
             .setAuthor({
               name: 'Support Server',
-              iconURL: 'https://tenor.com/view/gjirlfriend-gif-13388513436635893625', 
+              iconURL: 'https://media.discordapp.net/attachments/1220626906605555712/1220889757408559144/a_2b468dc6a0489c4ee8db65b4293dbd32.gif', 
               url: 'https://discord.com/app'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
