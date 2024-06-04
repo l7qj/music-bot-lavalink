@@ -41,7 +41,7 @@ module.exports = {
               url: 'https://discord.com/app'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://tenor.com/en-GB/view/kaneki-tokyo-tokyo-ghoul-ghoul-memories-gif-7646942302963930436')
+            .setImage('https://itunes.apple.com/app/apple-store/id917932200?pt=39040802&ct=Media1GIFV2&mt=8')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
