@@ -41,7 +41,7 @@ module.exports = {
               url: 'https://discord.com/app'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://itunes.apple.com/app/apple-store/id917932200?pt=39040802&ct=Media1GIFV2&mt=8')
+            .setImage('https://tenor.com/view/dnce-gif-14762310134329663850')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
