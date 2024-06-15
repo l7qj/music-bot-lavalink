@@ -21,15 +21,7 @@ client.on("message", (msg) => {
   if (msg.content === "divlopor") {
     msg.reply(
       "https://cdn.discordapp.com/banners/488001475906371586/a_a1e2aedc7bda233065b6458e3e399dc9.gif?size=4096"
-    );
-  }
+    
 });
-
-client.on("message", (msg) => {
-  if (msg.content === "nod ya w9") {
-    msg.reply(
-      "https://media.discordapp.net/attachments/1172202122486480956/1214724253291905104/IMG_8346.gif?ex=66284b9e&is=6615d69e&hm=6f10e4d0fe31478cccd31617fef9a2397b0a742b8ac7ed7af0afcc38b89ef9df&="
-    );
-  }
 });
 
