@@ -1,27 +1,38 @@
 const config = require('./config.js');
 require("./bot.js");
 
-const keepAlive = require("./server");
-const dotenv = require("dotenv");
-const { Client } = require("discord.js");
-const client = new Client();
-
-
-client.on("ready", () => {
-  console.log(`Enabled 24/7 on ${client.user.username}`);
-});
-
-client.on("message", (msg) => {
-  if (msg.content === "<@929750903244849192>") {
-    msg.reply("Mok tagiha <:anna_ae:1149003904655298640> ");
-  }
-});
-
-client.on("message", (msg) => {
-  if (msg.content === "divlopor") {
-    msg.reply(
-      "https://cdn.discordapp.com/banners/488001475906371586/a_a1e2aedc7bda233065b6458e3e399dc9.gif?size=4096"
+const {Client,Intents} = require ("discord.js")
+const client = new Client ({
+  intents : [ Intents.FLAGS.GUILDS,Intents.FLAGS.GUILD_MESSAGES]
+})
+const targetUsers = [
+    { id: '929750903244849192', emoji: '<a:l7aj_pentagramcross:1220142459208597635>', },
     
-});
-});
+  ];
+  
+  client.on('messageCreate', async (message) => {
+    const targetUser = targetUsers.find(user => user.id === message.author.id);
+  
+    if (targetUser) {
+      if (message.channel.permissionsFor(client.user).has('ADD_REACTIONS')) {
+        message.react(targetUser.emoji);
+        message.react(targetUser.emoji1);
+       console.log("done")
+   
+          
+      } else {
+        console.error(`not${message.channel.name}`);
+      }
+    }
+  });
+
+  process.on("unhandledRejection", error => {
+    return;
+  });
+  process.on("unhandledRejection", error => {
+    return;
+  });
+  process.on("unhandledRejection", error => {
+    return;
+  });
 
