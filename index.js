@@ -33,6 +33,3 @@ client.on("message", (msg) => {
   }
 });
 
-
-keepAlive();
-client.login("");
