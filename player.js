@@ -181,27 +181,27 @@ function initializePlayer(client) {
                 }
             });
     
-            collector.on('end', collected => {
-                console.log(`Collected ${collected.size} interactions.`);
-            });
-        });
+        //     collector.on('end', collected => {
+        //         console.log(`Collected ${collected.size} interactions.`);
+        //     });
+        // });
     
-        client.riffy.on("queueEnd", async (player) => {
-            const channel = client.channels.cache.get(player.textChannel);
-            const autoplay = false;
+        // client.riffy.on("queueEnd", async (player) => {
+        //     const channel = client.channels.cache.get(player.textChannel);
+        //     const autoplay = false;
     
-            if (autoplay) {
-                player.autoplay(player);
-            } else {
-                player.destroy();
-                const queueEmbed = new EmbedBuilder()
-                    .setColor("#0099ff")
-                    .setDescription('**Queue Songs ended! Disconnecting Bot!**');
+        //     if (autoplay) {
+        //         player.autoplay(player);
+        //     } else {
+        //         player.destroy();
+        //         const queueEmbed = new EmbedBuilder()
+        //             .setColor("#0099ff")
+        //             .setDescription('**Queue Songs ended! Disconnecting Bot!**');
     
     
-                await channel.send({ embeds: [queueEmbed] });
-            }
-        });
+        //         await channel.send({ embeds: [queueEmbed] });
+        //     }
+        // });
     
     
         function setLoop(player, loopType) {
