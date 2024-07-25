@@ -15,11 +15,11 @@ module.exports = {
             .setColor('#b300ff')
             .setAuthor({
               name: 'Support Server',
-              iconURL: '', 
+              iconURL: 'https://tenor.com/view/cool-fun-white-cat-dance-cool-and-fun-times-gif-16435335956387921912', 
               url: 'https://discord.gg/56meD6PqaW'
           })
             .setDescription(`<a:_flesh:1147990803449389056> **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n<a:_flesh:1147990803449389056> **Follow me on:**\n- GitHub - ${instaLink}\n`)
-            .setImage('')
+            .setImage('https://tenor.com/view/cool-fun-white-cat-dance-cool-and-fun-times-gif-16435335956387921912')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
