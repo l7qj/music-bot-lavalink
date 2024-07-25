@@ -10,16 +10,16 @@ module.exports = {
     try {
 
       const supportServerLink = "https://discord.gg/56meD6PqaW";
-      const githubLink = "https://github.com";
+      const instaLink = "https://www.instagram.com/1mine_0010/";
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
             .setAuthor({
               name: 'Support Server',
-              iconURL: 'https://tenor.com/view/cool-fun-white-cat-dance-cool-and-fun-times-gif-16435335956387921912 ', 
+              iconURL: '', 
               url: 'https://discord.gg/56meD6PqaW'
           })
-            .setDescription(`<a:_flesh:1147990803449389056> **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n<a:_flesh:1147990803449389056> **Follow us on:**\n- GitHub - ${githubLink}\n`)
-            .setImage('https://tenor.com/view/cool-fun-white-cat-dance-cool-and-fun-times-gif-16435335956387921912')
+            .setDescription(`<a:_flesh:1147990803449389056> **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n<a:_flesh:1147990803449389056> **Follow me on:**\n- GitHub - ${instaLink}\n`)
+            .setImage('')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
