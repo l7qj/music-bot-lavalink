@@ -9,18 +9,16 @@ module.exports = {
   run: async (client, interaction) => {
     try {
 
-      const supportServerLink = "https://discord.com/app";
+      const supportServerLink = "https://discord.gg/56meD6PqaW";
       const githubLink = "https://github.com";
-      const replitLink = "https://replit.com";
-      const youtubeLink = "https://www.youtube.com";
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
             .setAuthor({
               name: 'Support Server',
-              iconURL: 'https://media.discordapp.net/attachments/1220626906605555712/1220889757408559144/a_2b468dc6a0489c4ee8db65b4293dbd32.gif', 
-              url: 'https://discord.com/app'
+              iconURL: 'https://tenor.com/view/dnce-gif-14762310134329663850', 
+              url: 'https://discord.gg/56meD6PqaW'
           })
-            .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
+            .setDescription(`<a:_flesh:1147990803449389056> **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n<a:_flesh:1147990803449389056> **Follow us on:**\n- GitHub - ${githubLink}\n`)
             .setImage('https://tenor.com/view/dnce-gif-14762310134329663850')
             .setTimestamp();
 
