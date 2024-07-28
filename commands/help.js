@@ -16,9 +16,11 @@ module.exports = {
          .setColor('#0099ff')
       .setTitle('💎 Prime Music Bot')
       .setDescription('Welcome to the Music Bot!\n\n- Here are the available commands:\n\n' +
-        '**/play :** Start playing the songs.\n' +
-        '**/ping :** check bot latency.\n' +
-        '**/support :** Display support server info');
+         "**Click the buttons below to know the bot's commands **\n");
+      
+        // '**/play :** Start playing the songs.\n' +
+        // '**/ping :** check bot latency.\n' +
+        // '**/support :** Display support server info');
 
 const row = new ActionRowBuilder()
                 .addComponents(
@@ -30,7 +32,7 @@ const row = new ActionRowBuilder()
                 .addComponents(
                     new ButtonBuilder()
                     .setCustomId('prefixcmd')
-                    .setLabel('Prefix Commands ')
+                    .setLabel('Prefix Commands')
                     .setStyle(ButtonStyle.Danger)
                 )
     
