@@ -20,7 +20,21 @@ module.exports = {
         '**/ping :** check bot latency.\n' +
         '**/support :** Display support server info');
 
-      return interaction.reply({ embeds: [embed] });
+const row = new ActionRowBuilder()
+                .addComponents(
+                    new ButtonBuilder()
+                    .setCustomId('slashcmd')
+                    .setLabel('Slash Commands')
+                    .setStyle(ButtonStyle.Success)
+                )
+                .addComponents(
+                    new ButtonBuilder()
+                    .setCustomId('prefixcmd')
+                    .setLabel('Prefix Commands ')
+                    .setStyle(ButtonStyle.Danger)
+                )
+    
+      return interaction.reply({ embeds: [embed] ,components: [row]});
     } catch (e) {
     console.error(e); 
   }
